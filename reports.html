@@ -1,0 +1,65 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE9"> 
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>GQA Database - Reports</title></head>
+<!--css-->
+<link href="MainStyle.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="css/jcarousel.gqa.css" rel="stylesheet" type="text/css" media="screen" />
+<!--javascript-->
+<!--<script type="text/javascript" src="js/JSCompressed.js"></script>-->
+<script type="text/javascript" src="hey.js"></script>
+<div id="header">GQA Database - Reports</div>
+<div id="body">
+<ul>
+  <li><a href="./GQAMain.html">Home</a></li>
+  <li><a href="./suppliers.html">Suppliers</a></li>
+  <!--li><a href="./reports.html">Reports</a></li>-->
+  <li><a href="./admin.html">Administration</a></li>
+</ul>
+<div id="MainWrapper">	
+<div id="Reduction">
+<label id="ReductionLabel">Reduction Selections</label></br></br>
+<label id="SupplierStatusLabel">Supplier Status</label><select id="SelectSupplierStatusR">
+<option></option>
+<option>Active</option>
+<option>Approved</option>
+<option>Closed</option>
+<option>Dormant</option>
+<option>Do not Use</option>
+<option>Removed</option>
+</select></br></br>
+<label id="IELabel">Internal/External</label><select id="SelectIER">
+<option></option>
+<option>Internal</option>
+<option>External</option>
+</select></br></br>
+<label id="BusinessUnitLabel">Business Unit</label><select id="SelectBusinessUnitR">
+<option>Try to populate Dynamically</option>
+</select></br></br>
+<label id="EngineProgramLabel">Engine Program</label><select id="SelectEngineR">
+<option></option>
+<option>F130</option>
+<option>F135</option>
+</select>
+</div>
+<div id="ReportList">
+ <label class="ReportListLabels">Aftermarket Operations QSL</label><input class="rButton"  type="radio" id="rbutton1"  value="TBD"><br>
+ <label class="ReportListLabels">List Of Supplier Name Changes</label><input class="rButton" type="radio" id="rbutton2"  value="TBD"><br>
+ <label class="ReportListLabels">List Of Supplier Address Changes</label><input class="rButton" type="radio" id="rbutton3"  value="TBD"></br>
+ <label class="ReportListLabels">List Of Supplier Certification Changes</label><input class="rButton" type="radio" id="rbutton4"  value="TBD"><br>
+ <label class="ReportListLabels">List Of Supplier Types</label><input class="rButton" type="radio" id="rbutton5"  value="TBD"><br>
+ <label class="ReportListLabels">Certificate Expiry Tracker</label><input class="rButton" type="radio" id="rbutton6"  value="TBD"><br>
+ <label class="ReportListLabels">The Big One</label><input class="rButton" type="radio" id="rbutton7"  value="TBD"><div>
+</div>
+</div>
+<div id="reportButtons">
+<button id="PReportButton" onclick="Save()">Preview Report</button><button id="ClearButtonReports" onclick="ClearValues()">Clear</button></br>
+</div>
+<div id="footer">
+This webpage contains technical data subject to the EAR or the ITAR.
+</br>For all content related issues to this webpage, please contact Content Owner:
+<a href="mailto:rondal.archer@pw.utc.com; andrew.soltysiak@pw.utc.com?Subject=Technical%20Issue"> Quest DSM Team</a>
+</br>Last Updated 01/26/2016.
+</div> 
+</body>
+</html>

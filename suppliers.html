@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE9"> 
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>GQA Database - Suppliers</title></head>
+<!--css-->
+<link href="MainStyle.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="css/jcarousel.gqa.css" rel="stylesheet" type="text/css" media="screen" />
+<!--javascript-->
+<!--<script type="text/javascript" src="js/JSCompressed.js"></script>-->
+<script type="text/javascript" src="SuppliersPage.js"></script>
+<div id="header">GQA Database - Suppliers</div>
+<div id="body">	
+<ul>
+  <li><a href="./GQAMain.html">Home</a></li>
+  <!--li><a href="./suppliers.html">Suppliers</a></li>-->
+  <li><a href="./reports.html">Reports</a></li>
+  <li><a href="./admin.html">Administration</a></li>
+</ul>
+</br>
+<div id="upperhead"> 
+<label id="directions"> Select either Supplier Code</br>Alt Supplier Code or Supplier Name</label>
+<label id="QSLtitle">Quality Supplier List</label>
+<button id="NewSupplier">New Supplier</button>
+<button id="ClearFilters" onclick= "Clear()">Clear Filters</button>
+</div>
+<div id="bottomhead"> 
+<label id="SupplierCode"> Supplier Code</label><select id="SelectSupplierCode"></Select></br></br>
+<label id="ASupplierCode">Alt Supplier Code</label><select id="SelectASupplierCode"></Select>
+<label id="SupplierName">Supplier Name</label><select id="SelectSupplierName"></Select>
+<label id="Status">Status</label>
+<select id="SelectStatus">
+<option></option>
+<option>Active</option>
+<option>Approved</option>
+<option>Closed</option>
+<option>Dormant</option>
+<option>Do not Use</option>
+<option>Removed</option>
+</Select>
+</div>
+<div id="SupplierInfo">
+<label id="SCode2">Supplier Code</label>
+<label id="PLocation">Primary Location</label>
+<label id="SName">Supplier Name</label>
+<label id="State">State</label>
+<label id="ZCode">Zip Code</label>
+<label id="Status2">Status</label>
+<label id="Country">Country</label>
+</div>
+</div>
+</div> 
+<div id="footer">
+This webpage contains technical data subject to the EAR or the ITAR.
+</br>For all content related issues to this webpage, please contact Content Owner:
+<a href="mailto:rondal.archer@pw.utc.com; andrew.soltysiak@pw.utc.com?Subject=Technical%20Issue"> Quest DSM Team</a>
+</br>Last Updated 01/26/2016.
+</div> 
+</body>
+</html>
